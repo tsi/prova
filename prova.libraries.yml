@@ -11,3 +11,6 @@ prova:
     - core/drupalSettings
     - core/jquery.once
     - core/jquery.cookie
+provaAdmin:
+  js:
+    js/prova-admin.js: {}

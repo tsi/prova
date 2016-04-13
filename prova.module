@@ -8,4 +8,11 @@ function prova_page_attachments(array &$page) {
   // Add Library.
   $page['#attached']['library'][] = 'prova/prova';
 
+  $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
+  if ($is_admin) {
+
+    $page['#attached']['library'][] = 'prova/provaAdmin';
+
+  }
+
 }
