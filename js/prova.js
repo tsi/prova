@@ -3,7 +3,7 @@
   Drupal.behaviors.provaBehavior = {
     attach: function (context, settings) {
 
-      alert('IT WORKS');
+      alert('JS WORKS');
 
       alert('drupalSettings says: Happy ' + drupalSettings.prova.day + '!!!!');
 

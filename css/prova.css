@@ -1,5 +1,5 @@
 body:after {
-  content: "IT WORKS";
+  content: "CSS WORKS";
   position: fixed;
   top: 40%; right: 0; left: 0;
   text-align: center;
