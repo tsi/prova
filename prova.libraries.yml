@@ -1,0 +1,13 @@
+prova:
+  version: VERSION
+  js:
+    js/prova.js: {}
+  css:
+    component:
+      css/prova.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/jquery.cookie

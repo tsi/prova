@@ -1,0 +1,11 @@
+<?php
+
+function prova_page_attachments(array &$page) {
+
+  // Add Settings.
+  $page['#attached']['drupalSettings']['prova']['day'] = jddayofweek ( cal_to_jd(CAL_GREGORIAN, date("m"),date("d"), date("Y")) , 1 );
+
+  // Add Library.
+  $page['#attached']['library'][] = 'prova/prova';
+
+}
